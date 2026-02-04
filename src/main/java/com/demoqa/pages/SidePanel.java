@@ -1,13 +1,16 @@
 package com.demoqa.pages;
 
 import com.demoqa.core.BasePage;
+import com.demoqa.core.widgets.SelectPage;
 import com.demoqa.pages.alertsFrameWindows.AlertsPage;
 import com.demoqa.pages.alertsFrameWindows.IframesPage;
 import com.demoqa.pages.alertsFrameWindows.WindowsPage;
 import com.demoqa.pages.bookStore.LoginPage;
+import org.assertj.core.api.Assertions;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.Select;
 
 public class SidePanel extends BasePage {
 
@@ -45,4 +48,23 @@ public class SidePanel extends BasePage {
         clickWithJS(frames,0,200);
         return new IframesPage(driver);
     }
+
+    @FindBy(xpath = "//span[.='Nested Frames']")
+    WebElement nestedFrames;
+
+
+    public IframesPage getNestedFrames() {
+        clickWithJS(nestedFrames,0,400);
+        return new IframesPage(driver);
+    }
+
+    @FindBy(xpath = "//span[.='Select Menu']")
+    WebElement selectMenu;
+
+    public SelectPage getSelectMenu() {
+        clickWithJS(selectMenu,0,700);
+        return new SelectPage(driver);
+    }
+
+
 }
