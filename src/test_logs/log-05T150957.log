@@ -1,0 +1,18 @@
+281  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+289  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+5240 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.WidgetsTests.multiSelectTest()] is PASSED
+5245 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+5246 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+9681 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.WidgetsTests.standardMultiSelectTest()] is PASSED
+9687 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+9688 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+15564 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.WidgetsTests.toolTipsTest()] is PASSED
+15570 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+15571 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+21747 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.WidgetsTests.sliderTest()] is PASSED
+21752 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+21754 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+28071 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.WidgetsTests.hoverMouseOnMenuTest()] is PASSED
+28075 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+28076 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+33306 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.WidgetsTests.oldStyleSelectMenuTest()] is PASSED

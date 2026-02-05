@@ -10,14 +10,14 @@ import org.junit.jupiter.api.Test;
 public class LoginTests extends TestBase {
 
     @BeforeEach
-    public void preconditions(){
+    public void preconditions() {
         new HomePage(driver).getBookStore();
         new SidePanel(driver).getLogin();
     }
 
     @Test
-    public void loginPositiveTest(){
-        new LoginPage(driver).enterUserData("HannaKozlianska","Anna14031981$")
+    public void loginPositiveTest() {
+        new LoginPage(driver).enterUserData("HannaKozlianska", "Anna14031981$")
                 .clickOnLoginButton()
                 .verifyUserName("HannaKozlianska");
     }

@@ -13,10 +13,10 @@ public class AlertsFrameWindowsTests extends TestBase {
 
     SidePanel sidePanel;
     AlertsPage alerts;
-    IframesPage  iframes;
+    IframesPage iframes;
 
     @BeforeEach
-    public void preconditions(){
+    public void preconditions() {
         new HomePage(driver).getAlertsFrameWindows();
         sidePanel = new SidePanel(driver);
         alerts = new AlertsPage(driver);
@@ -24,28 +24,29 @@ public class AlertsFrameWindowsTests extends TestBase {
     }
 
     @Test
-    public void waitAlertsTest(){
+    public void waitAlertsTest() {
         sidePanel.getAlerts();
         alerts.verifyAlertWithTimer();
 
     }
 
     @Test
-    public void alertWithSelectResult(){
+    public void alertWithSelectResult() {
         sidePanel.getAlerts();
         alerts.clickOnResult("Cancel")
                 .verifyResult("Cancel");
     }
 
     @Test
-    public void sendMessageToAlertTest(){
+    public void sendMessageToAlertTest() {
         sidePanel.getAlerts();
         alerts.clickOnPromptButton()
                 .sendMessageToAlert("Hello world!")
                 .verifyMessage("Hello world!");
     }
+
     @Test
-    public void newTabTest(){
+    public void newTabTest() {
         sidePanel.getBrowserWindows();
         new WindowsPage(driver).clickNewTabButton()
                 .switchToNewTab(1)
@@ -53,15 +54,16 @@ public class AlertsFrameWindowsTests extends TestBase {
     }
 
     @Test
-    public void iframeByIdTest(){
+    public void iframeByIdTest() {
         sidePanel.getFrames();
         iframes.switchToIframeById()
                 .verifyIframeByTitle("This is a sample page")
                 .switchToMainPage()
                 .verifyMainPageByTitle("Frames");
     }
+
     @Test
-    public void nestedIframesTest(){
+    public void nestedIframesTest() {
         sidePanel.getNestedFrames();
         iframes.verifyNestedIframes();
     }

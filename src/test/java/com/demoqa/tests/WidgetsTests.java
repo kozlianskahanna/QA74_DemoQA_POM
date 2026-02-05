@@ -1,7 +1,10 @@
 package com.demoqa.tests;
 
 import com.demoqa.core.TestBase;
+import com.demoqa.core.widgets.MenuPage;
 import com.demoqa.core.widgets.SelectPage;
+import com.demoqa.core.widgets.SliderPage;
+import com.demoqa.core.widgets.ToolTipsPage;
 import com.demoqa.pages.HomePage;
 import com.demoqa.pages.SidePanel;
 import org.junit.jupiter.api.BeforeEach;
@@ -13,29 +16,51 @@ public class WidgetsTests extends TestBase {
     SelectPage select;
 
     @BeforeEach
-    public void precondition(){
+    public void precondition() {
         sidePanel = new SidePanel(driver);
         select = new SelectPage(driver);
         new HomePage(driver).getWidgets();
     }
 
     @Test
-    public void oldStyleSelectMenuTest(){
+    public void oldStyleSelectMenuTest() {
         sidePanel.getSelectMenu();
         select.oldStyleSelect("Yellow")
                 .verifyColor();
     }
 
     @Test
-    public void multiSelectTest(){
+    public void multiSelectTest() {
         sidePanel.getSelectMenu();
-        select.multiSelect(new String[]{"Green","Red"})
-                .verifyMultiSeleckt(new String[]{"Green","Red"});
+        select.multiSelect(new String[]{"Green", "Red"})
+                .verifyMultiSeleckt(new String[]{"Green", "Red"});
     }
 
     @Test
     public void standardMultiSelectTest() {
         sidePanel.getSelectMenu();
-        select.verifySelectedCar("opel","rgba(179, 215, 255, 1)");
+        select.verifySelectedCar("opel", "rgba(179, 215, 255, 1)");
     }
+
+    @Test
+    public void hoverMouseOnMenuTest() {
+        sidePanel.getMenu();
+        new MenuPage(driver).hoverMouseOnMenu()
+                .verifySubMenu();
+    }
+
+    @Test
+    public void sliderTest() {
+        sidePanel.getSlider();
+        new SliderPage(driver).moveSlider()
+                .verifySliderValue("100");
+    }
+
+    @Test
+    public void toolTipsTest() {
+        sidePanel.getToolTips();
+        new ToolTipsPage(driver).hoverMouseOnToolTips()
+                .verifyToolTips("buttonToolTip");
+    }
+
 }

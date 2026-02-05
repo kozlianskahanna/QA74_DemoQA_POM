@@ -1,0 +1,18 @@
+314  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+319  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+4090 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.AlertsFrameWindowsTests.newTabTest()] is PASSED
+4094 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+4096 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+8739 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.AlertsFrameWindowsTests.nestedIframesTest()] is PASSED
+8743 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+8744 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+18087 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.AlertsFrameWindowsTests.waitAlertsTest()] is PASSED
+18095 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+18097 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+22723 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.AlertsFrameWindowsTests.alertWithSelectResult()] is PASSED
+22727 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+22729 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+27132 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.AlertsFrameWindowsTests.iframeByIdTest()] is PASSED
+27137 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+27138 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+31592 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.AlertsFrameWindowsTests.sendMessageToAlertTest()] is PASSED
