@@ -1,0 +1,20 @@
+323  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+329  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+6710 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.ElementsTests.textBoxWthCsvFileTest(java.lang.String,java.lang.String,java.lang.String)] is PASSED
+6711 [main] INFO  com.demoqa.utils.MyTestWatcher -- [1] Robert Weide, weide@gm.com, Berlin
+6711 [main] INFO  com.demoqa.utils.MyTestWatcher -- *******************************************+*******
+6716 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+6718 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+12336 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.ElementsTests.textBoxWthCsvFileTest(java.lang.String,java.lang.String,java.lang.String)] is PASSED
+12337 [main] INFO  com.demoqa.utils.MyTestWatcher -- [2] Robert1 Weide, weide@gm.com, Berlin
+12337 [main] INFO  com.demoqa.utils.MyTestWatcher -- *******************************************+*******
+12343 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+12344 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+18771 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.ElementsTests.textBoxWthCsvFileTest(java.lang.String,java.lang.String,java.lang.String)] is PASSED
+18772 [main] INFO  com.demoqa.utils.MyTestWatcher -- [3] Robert2 Weide, weide@gm.com, Berlin
+18772 [main] INFO  com.demoqa.utils.MyTestWatcher -- *******************************************+*******
+18776 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+18777 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+25122 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.ElementsTests.textBoxWthCsvFileTest(java.lang.String,java.lang.String,java.lang.String)] is PASSED
+25123 [main] INFO  com.demoqa.utils.MyTestWatcher -- [4] Robert3 Weide, weide@gm.com, Berlin
+25123 [main] INFO  com.demoqa.utils.MyTestWatcher -- *******************************************+*******

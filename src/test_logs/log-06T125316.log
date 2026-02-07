@@ -1,0 +1,5 @@
+306  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+313  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+3850 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.PracticeFormTests.createAccountPositiveTest()] is PASSED
+3850 [main] INFO  com.demoqa.utils.MyTestWatcher -- createAccountPositiveTest()
+3850 [main] INFO  com.demoqa.utils.MyTestWatcher -- *******************************************+*******

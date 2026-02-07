@@ -1,0 +1,33 @@
+294  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+301  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+25996 [main] ERROR com.demoqa.utils.MyTestWatcher -- The method !!!Optional[public void com.demoqa.tests.ElementsTests.textBoxWithParameterTest(java.lang.String,java.lang.String,java.lang.String)]!!! is FAILED
+25997 [main] ERROR com.demoqa.utils.MyTestWatcher -- Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"permanentAddress"}.
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.112, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: /var/folders/rp/n1b0yk_1095...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49913}, goog:processID: 3171, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49913/devtoo..., se:cdpVersion: 144.0.7559.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6104bd4f69bdbcca11dacc2eaf279eaf
+25997 [main] INFO  com.demoqa.utils.MyTestWatcher -- **************************************************
+26013 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+26015 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+51913 [main] ERROR com.demoqa.utils.MyTestWatcher -- The method !!!Optional[public void com.demoqa.tests.ElementsTests.textBoxWithParameterTest(java.lang.String,java.lang.String,java.lang.String)]!!! is FAILED
+51913 [main] ERROR com.demoqa.utils.MyTestWatcher -- Expected condition failed: waiting for element to be clickable, but the element was not found: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"permanentAddress"}.
+(tried for 5 seconds with 500 milliseconds interval)
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.112, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: /var/folders/rp/n1b0yk_1095...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49986}, goog:processID: 3224, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49986/devtoo..., se:cdpVersion: 144.0.7559.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b587d8b4107fff8c10ca5eb915777c8e
+51913 [main] INFO  com.demoqa.utils.MyTestWatcher -- **************************************************
+51928 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
+51931 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
+71730 [main] ERROR com.demoqa.utils.MyTestWatcher -- The method !!!Optional[public void com.demoqa.tests.ElementsTests.textBoxWithParameterTest(java.lang.String,java.lang.String,java.lang.String)]!!! is FAILED
+71732 [main] ERROR com.demoqa.utils.MyTestWatcher -- Error communicating with the remote browser. It may have died.
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.7.3', java.version: '21'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [f32e451c89d51223b4fd328006de4b06, findElement [value, using]]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 144.0.7559.112, chrome: {chromedriverVersion: 144.0.7559.133 (7da823b1d59..., userDataDir: /var/folders/rp/n1b0yk_1095...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50057}, goog:processID: 3284, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:50057/devtoo..., se:cdpVersion: 144.0.7559.112, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f32e451c89d51223b4fd328006de4b06
+71734 [main] INFO  com.demoqa.utils.MyTestWatcher -- **************************************************
