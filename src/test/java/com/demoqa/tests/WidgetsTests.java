@@ -1,10 +1,10 @@
 package com.demoqa.tests;
 
 import com.demoqa.core.TestBase;
-import com.demoqa.core.widgets.MenuPage;
-import com.demoqa.core.widgets.SelectPage;
-import com.demoqa.core.widgets.SliderPage;
-import com.demoqa.core.widgets.ToolTipsPage;
+import com.demoqa.pages.widgets.MenuPage;
+import com.demoqa.pages.widgets.SelectPage;
+import com.demoqa.pages.widgets.SliderPage;
+import com.demoqa.pages.widgets.ToolTipsPage;
 import com.demoqa.pages.HomePage;
 import com.demoqa.pages.SidePanel;
 import org.junit.jupiter.api.BeforeEach;

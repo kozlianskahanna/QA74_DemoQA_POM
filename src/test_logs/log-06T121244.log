@@ -1,9 +1,0 @@
-310  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-316  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
-6461 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.ElementsTests.textBoxWithParameterTest(java.lang.String,java.lang.String,java.lang.String)] is PASSED
-6467 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-6474 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
-12292 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.ElementsTests.textBoxWithParameterTest(java.lang.String,java.lang.String,java.lang.String)] is PASSED
-12297 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-12298 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
-19131 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.ElementsTests.textBoxWithParameterTest(java.lang.String,java.lang.String,java.lang.String)] is PASSED

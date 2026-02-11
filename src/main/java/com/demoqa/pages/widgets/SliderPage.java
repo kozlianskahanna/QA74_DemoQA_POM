@@ -1,4 +1,4 @@
-package com.demoqa.core.widgets;
+package com.demoqa.pages.widgets;
 
 import com.demoqa.core.BasePage;
 import org.junit.jupiter.api.Assertions;

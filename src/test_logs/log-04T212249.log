@@ -1,9 +1,0 @@
-294  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-300  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
-3333 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.WidgetsTests.multiSelectTest()] is PASSED
-3338 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-3341 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
-5467 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.WidgetsTests.standardMultiSelectTest()] is PASSED
-5474 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-5476 [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
-7954 [main] INFO  com.demoqa.utils.MyTestWatcher -- The method Optional[public void com.demoqa.tests.WidgetsTests.oldStyleSelectMenuTest()] is PASSED

@@ -1,16 +1,18 @@
 package com.demoqa.pages;
 
 import com.demoqa.core.BasePage;
-import com.demoqa.core.widgets.MenuPage;
-import com.demoqa.core.widgets.SelectPage;
-import com.demoqa.core.widgets.SliderPage;
-import com.demoqa.core.widgets.ToolTipsPage;
+import com.demoqa.pages.widgets.MenuPage;
+import com.demoqa.pages.widgets.SelectPage;
+import com.demoqa.pages.widgets.SliderPage;
+import com.demoqa.pages.widgets.ToolTipsPage;
 import com.demoqa.pages.alertsFrameWindows.AlertsPage;
 import com.demoqa.pages.alertsFrameWindows.IframesPage;
 import com.demoqa.pages.alertsFrameWindows.WindowsPage;
 import com.demoqa.pages.bookStore.LoginPage;
+import com.demoqa.pages.elements.BrokenLinksImagesPage;
 import com.demoqa.pages.elements.ButtonsPage;
 import com.demoqa.pages.elements.TextBoxPage;
+import com.demoqa.pages.elements.UploadPage;
 import com.demoqa.pages.forms.PracticeFormPage;
 import com.demoqa.pages.interactions.DragAndDropPage;
 import org.openqa.selenium.WebDriver;
@@ -126,5 +128,21 @@ public class SidePanel extends BasePage {
     public PracticeFormPage getPracticeForm() {
         click(practiceForm);
         return new PracticeFormPage(driver);
+    }
+
+    @FindBy(xpath = "//span[.='Broken Links - Images']")
+    WebElement brokenLinksImages;
+
+    public BrokenLinksImagesPage getBrokenLinksImages() {
+        clickWithJS(brokenLinksImages, 0, 500);
+        return new BrokenLinksImagesPage(driver);
+    }
+
+    @FindBy(xpath = "//span[.='Upload and Download']")
+    WebElement uploadDownload;
+
+    public UploadPage getUpload() {
+        clickWithJS(uploadDownload,0,600);
+        return new UploadPage(driver);
     }
 }

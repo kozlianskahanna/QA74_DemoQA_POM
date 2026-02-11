@@ -1,5 +1,0 @@
-276  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Using chromedriver 144.0.7559.133 (resolved driver for Chrome 144)
-282  [main] INFO  i.g.bonigarcia.wdm.WebDriverManager -- Exporting webdriver.chrome.driver as /Users/hannakozlianska/.cache/selenium/chromedriver/mac-arm64/144.0.7559.133/chromedriver
-3432 [main] ERROR com.demoqa.utils.MyTestWatcher -- The method !!!Optional[public void com.demoqa.tests.WidgetsTests.sliderTest()]!!! is FAILED
-3432 [main] ERROR com.demoqa.utils.MyTestWatcher -- expected: <100> but was: <25>
-3432 [main] INFO  com.demoqa.utils.MyTestWatcher -- **************************************************
